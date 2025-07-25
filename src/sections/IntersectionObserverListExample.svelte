@@ -11,9 +11,9 @@
     const callback = (entries, observer) => {
         entries.forEach((entry) => {
             const elem = entry.target;
-            // TODO: only do this if we're scrolling upward
+            
             if (entry.intersectionRatio >= 0.9) {
-                // "active" state
+                
                 elem.style.backgroundColor = "#e3ff00";
                 const listItem = firstList.pop();
                 secondList.push(listItem);

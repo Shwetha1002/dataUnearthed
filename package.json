@@ -1,12 +1,13 @@
 {
-  "name": "kwk-scrollytelling-template",
+  "name": "dataUnearthed",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jasminesamra.github.io/kwk-scrollytelling-template",
+  "homepage": "https://Shwetha1002.github.io/dataUnearthed",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
     "deploy": "npm run build && gh-pages -d dist",
     "preview": "vite preview"
   },
